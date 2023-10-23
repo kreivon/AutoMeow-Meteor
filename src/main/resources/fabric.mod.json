@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "automeow",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "AutoMeow",
+  "description": "Simple addon for Meteor Client that meows in chat.",
   "authors": [
-    "seasnail"
+    "Kreivon"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/Kreivon/AutoMeow-Meteor"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/automeow/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "me.kreivon.automeow.AutoMeow"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "automeow.mixins.json"
   ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "225,128,255"
   },
   "depends": {
     "java": ">=17",

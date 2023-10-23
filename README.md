@@ -1,8 +1,3 @@
-# Meteor Addon Template
+# AutoMeow for Meteor
 
-A template to allow easy usage of the Meteor Addon API.
-
-### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+This is a simple addon for Meteor Client that meows in chat.
