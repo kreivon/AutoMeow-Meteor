@@ -5,16 +5,23 @@
   "name": "AutoMeow",
   "description": "Simple addon for Meteor Client that meows in chat.",
   "authors": [
-    "Kreivon"
+    {
+      "name": "Kreivon",
+      "contact": {
+        "email": "kreivon@proton.me"
+      }
+    }
   ],
   "contact": {
-    "repo": "https://github.com/Kreivon/AutoMeow-Meteor"
+    "repo": "https://github.com/Kreivon/AutoMeow-Meteor",
+    "sources": "https://github.com/Kreivon/AutoMeow-Meteor",
+    "issues": "https://github.com/Kreivon/AutoMeow-Meteor/issues"
   },
   "icon": "assets/automeow/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "me.kreivon.automeow.AutoMeow"
+      "me.kreivon.automeow.AutoMeowAddon"
     ]
   },
   "mixins": [
